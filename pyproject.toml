@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "eda-projects"
+version = "0.1.0"
+description = ""
+authors = ["doanhieung <doanhieu.ng@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+nbformat = "^5.10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
